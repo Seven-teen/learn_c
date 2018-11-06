@@ -5,7 +5,17 @@
 
 int main()
 {
-    printf("%s\n", "hello world");
-    
+    sayHello();
+    sayWorld();   
     return 0;
+}
+
+string sayHello()
+{
+	printf("%s\n", "hello");
+}
+
+string sayWorld()
+{
+	printf("%s\n", "world");
 }
